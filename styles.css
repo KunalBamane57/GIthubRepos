@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+*{
+  margin: 0;
+  padding: 0;
+}
+  h1 {
+    text-align: center;
+  }
+  #container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    height: 80px;
+  }
+  #username{
+    width: 200px;
+    height: 50px;
+    border-radius:6px;
+  }
+  .main-container{
+    display: flex;
+    /* justify-content: center; */
+    margin: 50px 20px 0px 20px;
+    height: 250px;
+  }
+  .githubrepos{
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+  .box1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .image{
+    margin-left: 420px;
+  }
+  .userimg img{
+    height: 250px;
+    width: 250px;
+    border:2px solid black;
+    border-radius: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 120px;
+  }
+  .userdes{
+    margin-top: 80px;
+    width: 320px;
+  }
+  .box2{
+    width: 75%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+  input {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  #getrepo{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(200, 227, 205);
+    color: green;
+    border-radius:8px;
+    border: 2px solid green;
+  }
+  #getrepo:hover{
+    background-color: green;
+    color: white;
+    border-radius:8px;
+  }
+  /* button {
+    padding: 10px 20px;
+    margin: 10px;
+  } */
+  .repos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+    padding-top: 30px;
+  }
+  .container-2{
+    display: flex;
+    margin-top: 30px;
+  }
+  .box3{
+    /* border:2px solid black; */
+    width: 50%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box4{
+    /* border:2px solid black; */
+    height: 700px;
+    width: 70%;
+    margin: 0px 10px;
+  }
+  
+  /* #repositories {
+    margin-top: 20px;
+  } */
+  .buttons{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+  }
+  .profile {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .user{
+    margin-top: 20px;
+  }
+  .userinfo{
+    display: flex;
+  }
